@@ -57,3 +57,12 @@ p.p-about {
     border-style: solid;
     border-color: black;
 }
+div#footer {
+    display: flex;
+    justify-content: space-evenly;
+}
+div.info h4 {
+    width: 275px;
+    display: flex;
+    justify-content: center;
+}
