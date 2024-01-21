@@ -4,6 +4,9 @@ html {
 body {
     background: pink;
 }
+h1 {
+    font-size: 40pt;
+}
 div#body-div img {
     width: 400px;
     aspect-ratio: auto;
@@ -20,6 +23,7 @@ div#header {
     display: flex;
     justify-content: center;
     padding-top: 15px;
+    padding-bottom: 15px;
 }
 #body-div div#about-me {
     display: flex;
@@ -61,8 +65,20 @@ div#footer {
     display: flex;
     justify-content: space-evenly;
 }
+div#footer div {
+    padding: 15px;
+    padding-top: 0px;
+    margin-top: 0px;
+    width: 275px;
+}
 div.info h4 {
     width: 275px;
     display: flex;
     justify-content: center;
+}
+
+div.info ul {
+    display: flex;
+    text-wrap: wrap;
+    flex-direction: column;
 }
