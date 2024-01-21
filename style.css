@@ -19,6 +19,7 @@ div#header {
     margin: auto;
     display: flex;
     justify-content: center;
+    padding-top: 15px;
 }
 #body-div div#about-me {
     display: flex;
@@ -35,7 +36,10 @@ div#header {
     margin-bottom: 0px;
 }
 div#spacer {
-    margin: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 30px;
+    margin-left: 30px;
 }
 #selfie {
     border-style: solid;
@@ -47,4 +51,9 @@ div#about-me h3 {
 }
 p.p-about {
     margin-bottom: 0px;
+}
+#spacer {
+    border-top: 5px;
+    border-style: solid;
+    border-color: black;
 }
