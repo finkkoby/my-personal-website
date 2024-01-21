@@ -6,17 +6,32 @@ body {
 }
 h1 {
     font-size: 40pt;
+    margin-top: 30px;
+}
+div#logo h2 {
+    font-size: 75pt;
+    margin-top: 17px;
+    opacity: 50%;
+}
+div#logo h2 a {
+    color: black;
+    text-decoration: none;
+}
+div#logo {
+    height: 116px;
+    display: flex;
+
 }
 div#body-div img {
     width: 400px;
     aspect-ratio: auto;
 }
 div#header {
-    justify-content: center;
+    justify-content: space-between;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: flex-start;
-    padding-left: 30px;
+    padding: 0px 30px;
 }
 #body-div {
     margin: auto;
