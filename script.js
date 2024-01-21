@@ -9,5 +9,5 @@ window.onload = function() {
     });
     logo.addEventListener('mouseout', function() {
         logo.style = "opacity:50%";
-    })
+    });
 }
